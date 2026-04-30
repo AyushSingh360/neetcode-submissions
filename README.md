@@ -92,9 +92,9 @@ Python For Beginners/python-hello-world/submission-0.py
 
 ```mermaid
 pie title Progress Snapshot
-    "Solved Problems" : 60
-    "In Progress" : 25
-    "To Revisit" : 15
+    "Solved Problems" : 45
+    "In Progress" : 10
+    "To Revisit" : 5
 ```
 
 ---

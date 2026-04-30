@@ -20,7 +20,7 @@
 
 ## Overview
 
-This repository stores problem submissions synced from [NeetCode.io](https://neetcode.io).  
+This repository stores problem submissions synced from [NeetCode.io](https://neetcode.io/).  
 Every submission can be automatically pushed here, making the repo a living tracker of progress, practice, and consistency.
 
 ---
@@ -42,12 +42,12 @@ flowchart TD
 ## Sync Flow
 
 ```mermaid
-graph LR
+flowchart LR
     A[Connect GitHub account] --> B[Enable GitHub Sync]
     B --> C[Submit on NeetCode]
     C --> D[Auto push to this repo]
     B --> E[Bulk Sync old submissions]
-    B --> F[Manual sync or remove from problem history]
+    B --> F[Manual sync from problem history]
 ```
 
 ---
@@ -91,18 +91,24 @@ Python For Beginners/python-hello-world/submission-0.py
 > You can update these values manually later for a more personalized dashboard.
 
 ```mermaid
-pie title Submission Distribution
+pie title Progress Snapshot
     "Solved Problems" : 60
     "In Progress" : 25
     "To Revisit" : 15
 ```
 
+---
+
+## Practice Journey
+
 ```mermaid
-xychart-beta
-    title "Practice Momentum"
-    x-axis [Week 1, Week 2, Week 3, Week 4, Week 5]
-    y-axis "Submissions" 0 --> 20
-    bar 
+flowchart TD
+    A[Start Practice] --> B[Pick Topic]
+    B --> C[Solve Problem]
+    C --> D[Submit Solution]
+    D --> E[Review Mistakes]
+    E --> F[Retry Harder Problems]
+    F --> G[Track Growth]
 ```
 
 ---
